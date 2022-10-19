@@ -1,3 +1,74 @@
-*{
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 740px;
+    background-image: url(img/Rectangle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.big-text{
+    position: absolute;
+    top: 192px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.small-text{
+    position: absolute;
+    top: 398px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.container2{
+    height: 1081px;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+
+}
+
+.container2-text{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404149;
+}
+.arena-block{
+    /* position: absolute; */
+    margin-top: 353px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.flex-palochka{
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-around;
 }
