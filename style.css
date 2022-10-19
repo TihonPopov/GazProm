@@ -53,6 +53,7 @@
 }
 
 .container2-text{
+    margin-top: 250px;
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
@@ -77,7 +78,7 @@
 
 .big-box{
     display: flex;
-    margin-top: 353px;
+    margin-top: 60px;
     gap: 30px;
     justify-content: center;
     
@@ -113,3 +114,34 @@
     margin-bottom: 15px;
 }
 
+.year{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;    
+    color: #F7654A;
+}
+
+.let{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.rynok{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #999999;
+}
