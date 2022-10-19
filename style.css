@@ -1,6 +1,8 @@
 *,
 *::after,
 *::before {
+    margin: 0;
+    padding: 0;
   box-sizing: border-box;
 }
 
@@ -72,3 +74,42 @@
     margin-top: 45px;
     justify-content: space-around;
 }
+
+.big-box{
+    display: flex;
+    margin-top: 353px;
+    gap: 30px;
+    justify-content: center;
+    
+}
+.wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+.h2-text{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+    margin-bottom: 20px;
+}
+
+.wrapper-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999; 
+}
+
+.img-palochka{
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
