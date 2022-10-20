@@ -221,3 +221,48 @@
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
+
+/* Блок ЧЕМ МЫ ЗАНИМАЕМСЯ */
+
+.bus-text{
+    margin-top: 150px;
+    margin-bottom: 66px;
+    text-align: center;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase; 
+    color: #000000;
+}
+
+.house-row1, .house-row2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.house-row2{
+    margin-top: 30px;
+}
+.house{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #F7F7F7;
+    width: 350px;
+    height: 250px;
+}
+
+.house-text{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
