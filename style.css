@@ -166,3 +166,58 @@
     text-align: center;
     color: #999999;
 }
+
+/* Оранжевая полоса с кнопкой */
+
+.orange-block{
+    display: flex;
+    height: 181px;
+    background-color: #F7654A;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 175px;
+    height: 49px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    border: 0; 
+}
+.btn-flex{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.orange-text{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.orange-big{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.orange-small{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
